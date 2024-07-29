@@ -12,8 +12,13 @@ The project is going to be a clothing recommendation app. Ideally, it will allow
 3.) Train a model to classify clothes: this will take care of step 2.
 
 4.) Train an image embedding model to compare clothes
+
 5.) Setup a vector database to store clothing embedding data. We'll stick with Wevaiate because I know it
+
 6.) Make a web scraper to get more data. We're starting with ~5,000 images of the clothes. Not nearly enough for us. We'll try to set up a webscraper to download images to our own custom data store.
+
 7.) Large scale training of an embedding model: make a huge pretraining effort and see if we can get some good "gains".
+
 8.) Make minimal website for this app. Allow people to upload image and then have relevent clothing back
+
 9.) Create a personalize recommendation system for clothes. See if we can get some "users" and go from there.
