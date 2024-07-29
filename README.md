@@ -6,8 +6,11 @@ The project is going to be a clothing recommendation app. Ideally, it will allow
 # Roadmap
 
 1.) Get an API up and going: This will involve simply creating an API that works. We want to make get and post requests for something.
+
 2.) Create a basic functionality: What will our API do? Initially, we'll simply make a clothes classifier app
+
 3.) Train a model to classify clothes: this will take care of step 2.
+
 4.) Train an image embedding model to compare clothes
 5.) Setup a vector database to store clothing embedding data. We'll stick with Wevaiate because I know it
 6.) Make a web scraper to get more data. We're starting with ~5,000 images of the clothes. Not nearly enough for us. We'll try to set up a webscraper to download images to our own custom data store.
