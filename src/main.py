@@ -2,9 +2,9 @@ import io
 
 from fastapi import FastAPI, File, UploadFile
 import numpy as np
+from PIL import Image
 import torch
 import torch.nn.functional as F
-from PIL import Image
 import uvicorn
 
 from .cfg import MODEL, IDX2LABEL
@@ -40,5 +40,5 @@ def run_classification(image):
     
     return probs_list
 
-def start():
-    uvicorn.run("app")
+if __name__ == "__main__":
+    uvicorn.run("src.main:app", host="0.0.0.0", port=8000)
