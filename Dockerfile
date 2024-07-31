@@ -1,7 +1,7 @@
 # This works locally for gunicorn and poetry
 FROM python:3.10 as python-base
 RUN mkdir app
-WORKDIR  /python_tutorial
+WORKDIR  /app
 COPY /pyproject.toml /app
 RUN pip install poetry
 RUN poetry config virtualenvs.create false
