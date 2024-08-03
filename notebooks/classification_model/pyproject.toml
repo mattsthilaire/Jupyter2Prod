@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "classification-model"
+version = "0.1.0"
+description = ""
+authors = ["MattStHilaire"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+polars = "^1.4.0"
+pillow = "^10.4.0"
+matplotlib = "^3.9.1"
+torch = "^2.4.0"
+timm = "^1.0.8"
+scikit-learn = "^1.5.1"
+tqdm = "^4.66.4"
+torchvision = "^0.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
